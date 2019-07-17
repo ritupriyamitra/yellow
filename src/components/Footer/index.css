@@ -1,0 +1,6 @@
+.footer-bar{
+  background-color: #283e4a;
+  height:3em;
+  color:white;
+  grid-column: 1/3;
+}

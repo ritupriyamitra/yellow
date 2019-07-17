@@ -1,0 +1,53 @@
+.body-header{
+
+  grid-area: header1;
+  justify-self:center;
+  align-self: flex-start;
+
+
+}
+.image-position{
+
+  grid-area:image1;
+  align-self:end;
+
+}
+
+.registration{
+
+  grid-area: form1;
+
+
+}
+.video-position{
+
+  grid-area: viveo1;
+}
+.article-content{
+
+  grid-area: article1;
+  align-self: start;
+
+
+}
+article section{
+  padding-bottom: 5%;
+
+}
+.body-container{
+  margin-right: 3%;
+  display: grid;
+  grid-template-rows:  10% 90%;
+  grid-template-columns:  15% 50% 35%;
+  grid-template-areas: "image1 header1 header2"
+  "article1 form1 viveo1";
+  grid-gap:1% 1%;
+
+
+
+
+}
+
+.date{
+  color:#003366;
+}
